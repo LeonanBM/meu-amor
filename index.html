@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amo Te</title>
+    <link rel="icon" href="src/amor.png" type="image/png">
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-dY9yVZqR1MFgXn4g5gWykIY5Y9bXhtSCV9zRxF+ZmVZ89jHz5oYje6N6gFLaUVkeNl3EGRxJdPg5p2W6kWiDAQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Vídeo de Fundo -->
+    <video autoplay muted loop id="background-video" poster="src/ceu-estrelado.jpg">
+        <source src="src/background.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Cristiano Ronaldo & Georgina Rodríguez</h1>
+        <nav>
+            <ul>
+                <li><a href="#contador">Tempo de Namoro</a></li>
+                <li><a href="#opcoes">Carta ou Música</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="content">
+        <!-- Carrossel de Fotos -->
+        <div class="carousel">
+            <div class="carousel-inner">
+                <img src="src/02.jpeg" alt="Foto 2">
+                <img src="src/03.jpeg" alt="Foto 3">
+                <img src="src/04.jpeg" alt="Foto 4">
+                <img src="src/05.jpeg" alt="Foto 5">
+            </div>
+            <!-- Setas de Navegação do Carrossel -->
+            <button class="carousel-control prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-control next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+
+        <!-- Botões de Opção -->
+        <div class="opcoes" id="opcoes">
+            <button id="botao-carta">Carta</button>
+            <button id="botao-musica">Música</button>
+        </div>
+
+        <!-- Conteúdo da Carta -->
+        <div id="conteudo-carta" class="conteudo" style="display: block;">
+            <h2>Carta para Minha Namorada</h2>
+            <p>
+                Querida Georgina,<br><br>
+                Desde o momento em que nos conhecemos, minha vida tem sido repleta de alegria e amor. Cada dia ao seu
+                lado é
+                uma bênção, e não consigo imaginar minha vida sem você. Você é minha inspiração e meu amor
+                eterno.<br><br>
+                Com todo o meu amor,<br>
+                CR7
+            </p>
+        </div>
+
+        <!-- Conteúdo da Música -->
+        <div id="conteudo-musica" class="conteudo">
+            <h2>Nossa Música</h2>
+            <div class="player-musica">
+                <audio controls id="love-music">
+                    <source src="src/music.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+            <div class="letra-musica">
+                <p>
+                    <!-- Insira aqui a letra da música -->
+                    Eu não posso esperar<br>
+                    Linda preciso te ver<br>
+                    Te amar, te sentir<br>
+                    Branca eu amo você<br>
+                    Não há, não há, não há<br>
+                    Como ela não há não há, não há<br>
+                    Eu prometo lhe dar<br>
+                    O que você quiser<br>
+                    Faz assim sou teu homem<br>
+                    E tu é minha mulher<br>
+                    Vem cá, vem cá, vem cá<br>
+                    Minha branca não vá<br>
+                    Não vá, não vá<br>
+                    Deixa eu te fazer sorrir<br>
+                    Tá esperando o que pra vir<br>
+                    Se joga no ato do amar<br>
+                    Igual a você não há<br>
+                    Deixa eu te fazer sorrir<br>
+                    Tá esperando o que pra vir<br>
+                    Se joga no ato do amar<br>
+                    Igual a você não há<br>
+                    Demorei pra encontrar<br>
+                    Alguém como você<br>
+                    Que soube conversar<br>
+                    Que soube me entender<br>
+                    Então fica perto de mim<br>
+                    Esse amor nunca vai ter fim, não<br>
+                    Demorei pra encontrar<br>
+                    Alguém como você<br>
+                    Que soube conversar<br>
+                    Que soube me entender<br>
+                    Então fica perto de mim<br>
+                    Esse amor nunca vai ter fim, não<br>
+                    Vem agora, baby me namora<br>
+                    Bora, bora esquece o mundo lá fora<br>
+                    E fica aqui perto de mim<br>
+                    Esse amor nunca vai ter fim, não<br>
+                    Vem agora, baby me namora<br>
+                    Bora, bora esquece o mundo lá fora<br>
+                    E fica aqui perto de mim<br>
+                    Esse amor nunca vai ter fim, não<br>
+                    Demorei pra encontrar<br>
+                    Alguém como você<br>
+                    Que soube conversar<br>
+                    Que soube me entender<br>
+                    Então fica perto de mim<br>
+                    Esse amor nunca vai ter fim, não<br>
+                    Demorei pra encontrar<br>
+                    Alguém como você<br>
+                    Que soube conversar<br>
+                    Que soube me entender<br>
+                    Então fica perto de mim<br>
+                    Esse amor nunca vai ter fim, não<br>
+                    Não, não, não, não, não, não, yeah<br>
+                    Então fica perto de mim<br>
+                    Esse amor nunca vai ter fim, não<br>
+                    Não, não, não, não, não, não<br>
+                    Então fica perto de mim<br>
+                    Esse amor nunca vai ter fim
+                </p>
+            </div>
+        </div>
+
+        <!-- Contador de Tempo -->
+        <div class="counter" id="contador">
+            <h2>Tempo de Namoro</h2>
+            <div class="time">
+                <div class="time-segment">
+                    <span id="days">0</span>
+                    <p>Dias</p>
+                </div>
+                <div class="time-segment">
+                    <span id="hours">0</span>
+                    <p>Horas</p>
+                </div>
+                <div class="time-segment">
+                    <span id="minutes">0</span>
+                    <p>Minutos</p>
+                </div>
+                <div class="time-segment">
+                    <span id="seconds">0</span>
+                    <p>Segundos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Amor. Todos os direitos reservados.</p>
+        <div class="redes-sociais">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
